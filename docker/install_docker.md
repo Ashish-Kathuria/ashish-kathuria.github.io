@@ -1,30 +1,15 @@
 ---
 layout: default
 parent: DOCKER
+nav_order: 1
 ---
 # Docker Installation
 
 ## Ubuntu
 
-### ***Using snap package (snap should be pre-installed). This will install docker and start daemon.***
+### Using apt-get
 
-```shell
-sudo snap install docker
-```
-
-Verify docker process
-
-```shell
-# Verify docker process
-ps -ef|grep docker
-
-# Check docker version
-docker --version
-```
-
-### ***Using apt-get***
-
-***This approach will also install docker-compose.***
+*This approach will also install docker-compose.*
 
 Remove old installations
 
@@ -83,3 +68,21 @@ Configure docker to run on system startup:-
 ```shell
 sudo systemctl enable docker
 ```
+
+### Using snap package (snap should be pre-installed). This will install docker and start daemon.
+
+```shell
+sudo snap install docker
+```
+
+Verify docker process
+
+```shell
+# Verify docker process
+ps -ef|grep docker
+
+# Check docker version
+docker --version
+```
+
+We need to install docker-compose separately here. Please follow this [link](./docker-compose) for docker-compose.

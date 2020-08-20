@@ -1,8 +1,9 @@
 ---
 layout: default
 parent: DOCKER
+nav_order: 2
 ---
-# DockerCLI
+# Docker CLI
 
 Documentation of all docker commands can be found [here.](https://docs.docker.com/reference/)
 
