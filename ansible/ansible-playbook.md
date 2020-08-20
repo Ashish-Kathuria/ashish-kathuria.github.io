@@ -49,7 +49,7 @@ Create a file `test.yml` with below code for `command` module. `ansible-playbook
 
         - name: Print Output
           debug:
-            msg: "This is new1 {{ cur_date.stdout }}"
+            msg: "This is new1 {{cur_date.stdout}}"
 ```
 
 Now, run below command to execute the playbook
