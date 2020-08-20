@@ -37,7 +37,7 @@ ansible-playbook -i ssh_server, -u ssh_user test.yml
 
 Create a file `test.yml` with below code for `command` module. `ansible-playbook` does not print returned values. So, output is registered to a variable and printed.
 
-```yml
+```shell
 ---
     - name: Test Playbook
       hosts: all
@@ -49,7 +49,7 @@ Create a file `test.yml` with below code for `command` module. `ansible-playbook
 
         - name: Print Output
           debug:
-            msg: "This is {{ cur_date.stdout }}"
+            msg: "This is new1 {{ cur_date.stdout }}"
 ```
 
 Now, run below command to execute the playbook
