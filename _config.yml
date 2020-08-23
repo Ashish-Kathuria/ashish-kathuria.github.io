@@ -4,6 +4,6 @@ relative_links:
   collections: true
 remote_theme:  "pmarsceill/just-the-docs"
 aux_links:
-  "Visit the repo on GitHub":
-    - "//github.com/kathuriaas/kathuriaas.github.io"
+  "Ansible Examples": "https://github.com/kathuriaas/ansible-examples.git"
+  "Visit the repo on GitHub": "//github.com/kathuriaas/kathuriaas.github.io"
 aux_links_new_tab: true
