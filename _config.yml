@@ -5,7 +5,6 @@ relative_links:
 remote_theme:  "pmarsceill/just-the-docs"
 aux_links:
   "Ansible Examples": "https://github.com/kathuriaas/ansible-examples.git"
-  "Visit the repo on GitHub": "//github.com/kathuriaas/kathuriaas.github.io"
 aux_links_new_tab: true
 
 # Footer "Edit this page on GitHub" link text
