@@ -2,17 +2,3 @@ title: Code Examples
 relative_links:
   enabled:     true
   collections: true
-remote_theme:  "pmarsceill/just-the-docs"
-aux_links:
-  - "Ansible Examples Repo1": "https://github.com/kathuriaas/ansible-examples.git"
-  - "Ansible Examples Repo2": "https://github.com/kathuriaas/ansible-examples.git"
-  - "Ansible Examples Repo3": "https://github.com/kathuriaas/ansible-examples.git"
-  - "Ansible Examples Repo4": "https://github.com/kathuriaas/ansible-examples.git"
-aux_links_new_tab: true
-
-# Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/kathuriaas/kathuriaas.github.io" # the github URL for your repo
-gh_edit_branch: "master" # the branch that your docs is served from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
