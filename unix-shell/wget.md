@@ -1,8 +1,9 @@
 ---
 layout: default
 parent: UNIX
+permalink: https://github.com/kathuriaas/docker_node_sample
 ---
-# WGET in UNIX
+# WGET in UNIXGG
 
 wget is used to communicate with a web address via http/https/ftp etc
 
